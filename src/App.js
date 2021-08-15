@@ -1,9 +1,14 @@
 import React, { Component } from "react";
+import Calendario from "./components/Calendario.jsx";
 import "./css/App.css";
 
 class App extends Component {
   render() {
-    return <h1>JAIR</h1>;
+    return (
+      <div className="app-inicio">
+        <Calendario />
+      </div>
+    );
   }
 }
 
